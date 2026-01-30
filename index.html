@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>APOLLO TERMINAL - OS v2.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="crt-overlay"></div>
+    <div class="scanline"></div>
+
+    <div class="terminal-container">
+        <header>
+            <span>SEVASTOPOL ARCHIVE SYSTEM - TERMINAL 04</span>
+            <span id="clock">12:00:00</span>
+        </header>
+        
+        <div id="terminal-output">
+            <p class="system-msg">READY FOR INPUT...</p>
+            <p class="system-msg">TYPE 'help' FOR COMMANDS OR USE CONSOLE FOR ADMIN OVERRIDE.</p>
+        </div>
+
+        <div class="input-line">
+            <span class="prompt">></span>
+            <input type="text" id="user-input" autofocus autocomplete="off">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
